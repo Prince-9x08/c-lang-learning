@@ -22,7 +22,7 @@
 //     return 0;
 // }
 
-/* ====making a program to find side of square===*/
+/* ====program to find area of square===*/
 
 /*
 #include <stdio.h>
@@ -38,18 +38,37 @@ int main(){
 }
 */
 
-#include<stdio.h>
+/*======PROGRAM TO FIND PERIMETER OF RECTANGLE======*/
 
+// #include<stdio.h>
+
+// int main(){
+//     float length,breadth;
+//     printf("enter the length of rectangle=");
+//     scanf("%f", &length);
+
+//     printf("enter the breadth of rectangle=");
+//     scanf("%f",&breadth);
+
+//     printf("perimeter of  rectangle is : %f"
+//         , 2*length + 2*breadth);
+//     return 0;
+// }
+
+#include <stdio.h>
 int main(){
-    float length,breadth;
-    printf("enter the length of rectangle=");
-    scanf("%f", &length);
+    int a=10;
+    int b=20;
 
-    printf("enter the breadth of rectangle=");
-    scanf("%f",&breadth);
+    int sum= a + b;
+    int sub= a - b;
+    int product= a * b;
+    int div= a/b;
 
-    printf("perimeter of  rectangle is : %f"
-        , 2*length + 2*breadth);
+    printf("sum of a + b = %d\n",sum);
+    printf("sub of a - b = %d\n",sub);
+    printf("prod of a * b = %d\n",product);
+    printf("div of a / b = %d\n",div);
     return 0;
-
 }
+
