@@ -73,8 +73,26 @@ int main(){
 // }
 
 // #include <stdio.h>
+
 // int main(){
 //     int a=5+2/2*3;
 //     printf("value of a=%d",a);
 //     return 0 ;
 // }
+
+#include <stdio.h>
+int main(){
+    float a,b;
+
+    printf("enter the value of a:");
+    scanf("%f",&a);
+
+    printf("Enter the value of b:");
+    scanf("%f",&b);
+
+    float sum = a + b;
+    
+    printf("The sum of a + b =%f",sum);
+    return 0;
+
+}
