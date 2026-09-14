@@ -80,19 +80,19 @@ int main(){
 //     return 0 ;
 // }
 
-#include <stdio.h>
-int main(){
-    float a,b;
+// #include <stdio.h>
+// int main(){
+//     float a,b;
 
-    printf("enter the value of a:");
-    scanf("%f",&a);
+//     printf("enter the value of a:");
+//     scanf("%f",&a);
 
-    printf("Enter the value of b:");
-    scanf("%f",&b);
+//     printf("Enter the value of b:");
+//     scanf("%f",&b);
 
-    float sum = a + b;
+//     float sum = a + b;
     
-    printf("The sum of a + b =%f",sum);
-    return 0;
+//     printf("The sum of a + b =%f",sum);
+//     return 0;
 
-}
+// }
